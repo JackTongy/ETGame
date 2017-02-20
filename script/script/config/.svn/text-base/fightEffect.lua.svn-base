@@ -1,0 +1,8 @@
+--[[
+	唯一id, 特效id,可支持多个effectId相同，代表一个数组, 角色动画播放时间轴, 特效id, 特效播放时间轴, 特效放置的位置(1 上层，2下层，3天空层，4地面层), 
+--]]
+local _table = {
+	[1] = {	id = 1,	effectId = 1,	roleTimeArr = 0,	model_id = 0,	modelTimeArr = 0,	layer = 1,},
+}
+
+return _table

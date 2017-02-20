@@ -1,0 +1,10 @@
+--[[
+	buff唯一ID, 类型, buff描述, 光环类型数组, 光环数值数组, 持续时间, 间隔时间, 触发类型, 触发数值, buff模型, 特效层级, 
+--]]
+local _table = {
+	[1] = {	buffid = 1,	type = 1,	buffdes = "自身攻击力增加30%，持续10秒，并同时影响技能伤害。",	ghtypearray = {11},	ghvaluearray = {0.3},	duration = 10,	interval = 0,	triggertype = 0,	triggervalue = 0,	model_id = 0,	layer = 0,},
+	[2] = {	buffid = 2,	type = 2,	buffdes = "中毒效果",	ghtypearray = 31,	ghvaluearray = 0,	duration = 60,	interval = 4,	triggertype = 2,	triggervalue = 0.04,	model_id = 0,	layer = 0,},
+	[3] = {	duration = "  ",},
+}
+
+return _table

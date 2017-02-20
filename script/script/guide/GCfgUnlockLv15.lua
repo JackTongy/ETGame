@@ -1,0 +1,10 @@
+return{
+	{
+		{Action='DStageList'},
+		{Dtype=5,point='关闭列表',Action='DStageListClose',checkLayer='DTown'},
+		{Event='closeAllLayer',eventOnly=true},
+		{adjust={'CHome','CWorldMap'}},
+		{Dtype=4,Event='MenuBarStateShow',Action='DHomeToolBar'},
+		{Dtype=3,point='聊天',Action='DChat'},
+	}
+}

@@ -1,0 +1,10 @@
+--[[
+	副本ID, 波组, 战斗总时间，0表示没有时间约束，大于0表示有时间约束，单位为, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 
+--]]
+local _table = {
+	[1] = {	fubenid = 1,	wavearray = {1,2,3},	totaltime = 120,},
+	[2] = {	fubenid = 2,	wavearray = {4,5,6},	totaltime = 120,},
+	[3] = {	fubenid = 3,	wavearray = {2,3,5,6},	totaltime = 120,},
+}
+
+return _table

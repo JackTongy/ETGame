@@ -1,0 +1,16 @@
+--付费
+return{
+	{
+		{Action='DStageList',Des='触发扫荡引导'},
+		{Dtype=5,point='关闭列表',Action='DStageListClose',checkLayer='DTown'},
+		{Event='closeAllLayer',eventOnly=true},
+		{Dtype=1,CID=88},--引导精灵：对了，主人。你应该还有一个地方没有去过吧！跟我来吧！
+		{adjust='CHome'},
+		{Dtype=4,Event='MenuBarStateShow',Action='DHomeToolBar'},
+		{Dtype=3,point='充值',Action='DRecharge'},--引导点击充值
+		{Dtype=1,CID=89},--引导精灵：在这里主人可以通过充值购买精灵石，同时获得各种VIP特权哦。现在我们来看看VIP有哪些特权吧！
+		{Dtype=3,point='特权',Action='tabPrivilege'},--引导点击特权
+		{Dtype=1,CID=90},--引导精灵：别忘了还有VIP礼包可以领取哦！
+		{Dtype=3,point='礼包',Action='tabGift'},--引导点击礼包
+	}
+}

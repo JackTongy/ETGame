@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/project_pet/!svn/ver/1125/develop/config/Luas
+END
+pve_waves.lua
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project_pet/!svn/ver/890/develop/config/Luas/pve_waves.lua
+END
+pve_charactor.lua
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/project_pet/!svn/ver/890/develop/config/Luas/pve_charactor.lua
+END
+pve_monster.lua
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project_pet/!svn/ver/890/develop/config/Luas/pve_monster.lua
+END
+buff.lua
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/project_pet/!svn/ver/398/develop/config/Luas/buff.lua
+END
+property .lua
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project_pet/!svn/ver/890/develop/config/Luas/property%20.lua
+END
+pve_charactor_teams.lua
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/project_pet/!svn/ver/890/develop/config/Luas/pve_charactor_teams.lua
+END
+buff - 副本.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/project_pet/!svn/ver/398/develop/config/Luas/buff%20-%20%E5%89%AF%E6%9C%AC.lua
+END
+战斗结构说明.lua
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/project_pet/!svn/ver/339/develop/config/Luas/%E6%88%98%E6%96%97%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E.lua
+END
+pve_fubens.lua
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/project_pet/!svn/ver/890/develop/config/Luas/pve_fubens.lua
+END
+charactorConfig.lua
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/project_pet/!svn/ver/398/develop/config/Luas/charactorConfig.lua
+END
+skill.lua
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/project_pet/!svn/ver/344/develop/config/Luas/skill.lua
+END
+fightEffect.lua
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/project_pet/!svn/ver/339/develop/config/Luas/fightEffect.lua
+END
+PVE配置说明.lua
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/project_pet/!svn/ver/339/develop/config/Luas/PVE%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E.lua
+END

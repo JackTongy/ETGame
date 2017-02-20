@@ -1,0 +1,55 @@
+--[[
+	LvLow = 玩家等级
+LvTop = nil
+RewardIds = 奖励id列表
+
+--]]
+local _table = {
+	[1] = {	LvLow = 1,	LvTop = 30,	RewardIds = {92000,92001},},
+	[2] = {	LvLow = 1,	LvTop = 30,	RewardIds = {92002,92003},},
+	[3] = {	LvLow = 1,	LvTop = 30,	RewardIds = {92004,92005},},
+	[4] = {	LvLow = 1,	LvTop = 30,	RewardIds = {92006,92007},},
+	[5] = {	LvLow = 1,	LvTop = 30,	RewardIds = {92008,92009},},
+	[6] = {	LvLow = 31,	LvTop = 40,	RewardIds = {92010,92011},},
+	[7] = {	LvLow = 31,	LvTop = 40,	RewardIds = {92012,92013},},
+	[8] = {	LvLow = 31,	LvTop = 40,	RewardIds = {92014,92015},},
+	[9] = {	LvLow = 31,	LvTop = 40,	RewardIds = {92016,92017},},
+	[10] = {	LvLow = 31,	LvTop = 40,	RewardIds = {92018,92019},},
+	[11] = {	LvLow = 41,	LvTop = 50,	RewardIds = {92000,92001},},
+	[12] = {	LvLow = 41,	LvTop = 50,	RewardIds = {92002,92003},},
+	[13] = {	LvLow = 41,	LvTop = 50,	RewardIds = {92004,92005},},
+	[14] = {	LvLow = 41,	LvTop = 50,	RewardIds = {92006,92007},},
+	[15] = {	LvLow = 41,	LvTop = 50,	RewardIds = {92008,92009},},
+	[16] = {	LvLow = 51,	LvTop = 60,	RewardIds = {92010,92011},},
+	[17] = {	LvLow = 51,	LvTop = 60,	RewardIds = {92012,92013},},
+	[18] = {	LvLow = 51,	LvTop = 60,	RewardIds = {92014,92015},},
+	[19] = {	LvLow = 51,	LvTop = 60,	RewardIds = {92016,92017},},
+	[20] = {	LvLow = 51,	LvTop = 60,	RewardIds = {92018,92019},},
+	[21] = {	LvLow = 61,	LvTop = 70,	RewardIds = {92000,92001},},
+	[22] = {	LvLow = 61,	LvTop = 70,	RewardIds = {92002,92003},},
+	[23] = {	LvLow = 61,	LvTop = 70,	RewardIds = {92004,92005},},
+	[24] = {	LvLow = 61,	LvTop = 70,	RewardIds = {92006,92007},},
+	[25] = {	LvLow = 61,	LvTop = 70,	RewardIds = {92008,92009},},
+	[26] = {	LvLow = 71,	LvTop = 80,	RewardIds = {92010,92011},},
+	[27] = {	LvLow = 71,	LvTop = 80,	RewardIds = {92012,92013},},
+	[28] = {	LvLow = 71,	LvTop = 80,	RewardIds = {92014,92015},},
+	[29] = {	LvLow = 71,	LvTop = 80,	RewardIds = {92016,92017},},
+	[30] = {	LvLow = 71,	LvTop = 80,	RewardIds = {92018,92019},},
+	[31] = {	LvLow = 81,	LvTop = 90,	RewardIds = {92000,92001},},
+	[32] = {	LvLow = 81,	LvTop = 90,	RewardIds = {92002,92003},},
+	[33] = {	LvLow = 81,	LvTop = 90,	RewardIds = {92004,92005},},
+	[34] = {	LvLow = 81,	LvTop = 90,	RewardIds = {92006,92007},},
+	[35] = {	LvLow = 81,	LvTop = 90,	RewardIds = {92008,92009},},
+	[36] = {	LvLow = 91,	LvTop = 100,	RewardIds = {92010,92011},},
+	[37] = {	LvLow = 91,	LvTop = 100,	RewardIds = {92012,92013},},
+	[38] = {	LvLow = 91,	LvTop = 100,	RewardIds = {92014,92015},},
+	[39] = {	LvLow = 91,	LvTop = 100,	RewardIds = {92016,92017},},
+	[40] = {	LvLow = 91,	LvTop = 100,	RewardIds = {92018,92019},},
+	[41] = {	LvLow = 101,	LvTop = 200,	RewardIds = {92010,92011},},
+	[42] = {	LvLow = 101,	LvTop = 200,	RewardIds = {92012,92013},},
+	[43] = {	LvLow = 101,	LvTop = 200,	RewardIds = {92014,92015},},
+	[44] = {	LvLow = 101,	LvTop = 200,	RewardIds = {92016,92017},},
+	[45] = {	LvLow = 101,	LvTop = 200,	RewardIds = {92018,92019},},
+}
+
+return _table

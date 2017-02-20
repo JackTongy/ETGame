@@ -1,0 +1,16 @@
+--[[
+	队伍ID, 上场英雄组, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 
+--]]
+local _table = {
+	[1] = {	teamid = 1,	heroarray = {1,2,3,19,36,1},},
+	[2] = {	teamid = 2,	heroarray = {4,5,6,7,8,9},},
+	[3] = {	teamid = 3,	heroarray = {10,11,12,13,15,29},},
+	[4] = {	teamid = 4,	heroarray = {14,17,18,20,22,23},},
+	[5] = {	teamid = 5,	heroarray = {24,25,26,27,28,30},},
+	[6] = {	teamid = 6,	heroarray = {16,31,32,33,34,35},},
+	[7] = {	teamid = 7,	heroarray = {1,2,3,18,23,14},},
+	[8] = {	teamid = 8,	heroarray = {19,11,12,21,34,17},},
+	[9] = {	teamid = 9,	heroarray = {3,22,23,24,32,25},},
+}
+
+return _table

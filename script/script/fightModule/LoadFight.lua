@@ -1,0 +1,7 @@
+ -- require 'BattleScene'
+require 'FightLoading'
+require 'FightScene'
+require 'GamePause'
+require 'GameOverWin'
+require 'GameOverLost'
+-- require 'FightScene'

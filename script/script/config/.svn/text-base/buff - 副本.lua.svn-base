@@ -1,0 +1,19 @@
+--[[
+	唯一id, 类型, 状态, 行为, 值, 是否叠加, 模型id, 特效层级, 描述, 
+--]]
+local _table = {
+	[1] = {	buff_id = 101,	type = 1,	state = 1,	P = 0,	V = 5,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "盲目5秒",},
+	[2] = {	buff_id = 102,	type = 2,	state = 1,	P = 0,	V = 6,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "持续6秒的缓速",},
+	[3] = {	buff_id = 103,	type = 3,	state = 0,	P = 0,	V = 0,	IsAdd = 0,	model_id = 0,	layer = 0,},
+	[4] = {	buff_id = 104,	type = 4,	state = 1,	P = 0,	V = 5,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "持续5秒中毒",},
+	[5] = {	buff_id = 105,	type = 5,	state = 1,	P = 0,	V = 4,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "持续4秒昏迷",},
+	[6] = {	buff_id = 106,	type = 6,	state = 1,	P = 0,	V = 4,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "持续6秒冻结",},
+	[7] = {	buff_id = 201,	type = -1,	state = 1,	P = 0,	V = 0,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "驱散/免疫 盲目",},
+	[8] = {	buff_id = 202,	type = -2,	state = 1,	P = 0,	V = 0,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "驱散/免疫 缓速",},
+	[9] = {	buff_id = 203,	type = -3,	state = 0,	P = 0,	V = 0,	IsAdd = 0,	model_id = 0,	layer = 0,},
+	[10] = {	buff_id = 204,	type = -4,	state = 1,	P = 0,	V = 0,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "驱散/免疫 中毒",},
+	[11] = {	buff_id = 205,	type = -5,	state = 1,	P = 0,	V = 0,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "驱散/免疫 昏迷",},
+	[12] = {	buff_id = 206,	type = -6,	state = 1,	P = 0,	V = 0,	IsAdd = 0,	model_id = 0,	layer = 0,	Des = "驱散/免疫 冻结",},
+}
+
+return _table

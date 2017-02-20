@@ -1,0 +1,65 @@
+--[[
+解锁引导动态修正引导步骤相关配置
+]]
+return {
+	--curloc
+	CHome=
+	{	
+		--target
+		CHome=
+		{
+	
+		},
+		CWorldMap=
+		{
+			{Dtype=3,point='世界地图',Action='CWorldMap'},
+			
+		},
+		CTeam=
+		{
+			{Dtype=4,Event='MenuBarStateShow',Action='DHomeToolBar'},
+			{Dtype=3,point='队伍',Action='CTeam'},
+		}	
+	},
+	CWorldMap=
+	{
+		CHome=
+		{
+			{Dtype=3,point='主城',Action='CHome'},
+		},
+		CWorldMap=
+		{
+
+		},
+		CTeam=
+		{
+			{Dtype=4,Event='MenuBarStateShow',Action='DHomeToolBar'},
+			{Dtype=3,point='队伍',Action='CTeam'},
+		}
+	},
+	CTeam=
+	{
+		CHome=
+		{
+			{Dtype=3,point='返回',Action='CHome'},
+		},
+		CWorldMap=
+		{
+			{Dtype=3,point='返回',Action='CWorldMap'},
+		},
+		CWorldMapCHome=
+		{
+			{Dtype=3,point='返回',Action='CWorldMap'},
+			{Dtype=3,point='主城',Action='CHome'},	
+		},
+		CHomeCWorldMap=
+		{
+			{Dtype=3,point='返回',Action='CHome'},
+			{Dtype=3,point='世界地图',Action='CWorldMap'},
+		},
+		CTeam=
+		{
+
+		}
+	}
+}
